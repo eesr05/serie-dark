@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #000;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    position: absolute;
+    left: 0;
+    margin: 25px
+}
+
+li {
+    color: white;
+    display: inline-block;
+    padding: 12px;
+    margin: 0 0 0 45px;
+    align-items: center;
+    margin-top: 12px;
+
+}
+
+.logo {
+    margin: 25px;
+    height: 30px;
+    width: 30px;
+    right: 0;
+    position: absolute;
+}
+
+.inicio {
+    width: 100%;
+    height: 591px;
+    background: url(hero.jpg) 50%;
+}
+
+.inicio p:first-of-type {
+    z-index: 1;
+    color: red;
+    margin-top: 150px;
+    position: absolute;
+    left: 43%;
+}
+
+.titulo,
+.subtitulo {
+    color: whitesmoke;
+    font-size: 76px;
+    left: 35%;
+    margin-top: 200px;
+    letter-spacing: 45px;
+}
+
+.subtitulo {
+    color: white;
+    font-size: 20px;
+    left: 40%;
+    letter-spacing: normal;
+    margin-top: 300px;
+}
+
+.exp {
+    margin-top: 540px;
+    left: 47%;
+    color: whitesmoke;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    position: fixed;
+    bottom: 25px;
+    margin: 30px;
+
+
+
+}
+
+i {
+    color: #ccc;
+    margin-bottom: 10px
+}
+
+.idiomas {
+    position: absolute;
+    bottom: 10px;
+    margin: 23px
+}
+
+#list-idioma {
+    display: none;
+    flex-direction: column;
+    background: none;
+    align-items: center;
+    overflow: auto;
+    border: hidden;
+
+}
+
+.lis-idioma {
+    margin: 0;
+    border: hidden;
+}
+
+button {
+    width: 60px;
+    height: 100px;
+    background: none;
+    border: hidden;
+
+}

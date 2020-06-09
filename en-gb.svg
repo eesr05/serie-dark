@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 220 110">
+      <image width="220" height="110" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAABuCAMAAAB7ho3NAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAflBMVEXaSlzywMb////19vqRoccZOYoAJH1VbajPFCsUNYeAkr7x8/j++fnsoarULEHbTl/zxcv99vfqlqDTKT6MnMQXOIm2wNqqttRieK/29/r++/vicoDfYnLmhpL21dn4+fxme7H42t7ojJjibn3wtr3++fr0yM3cU2TTJjzpkZx41KacAAAAAWJLR0QCZgt8ZAAAAAd0SU1FB+EICgkYMOUSWlgAAAMFSURBVHja7dxpc9owEIfxP04L9MxJ0ju9j+//BdtSSOsBbO3xmJlm9aKTmZT1/pCCZSGtNOv2tpMHD+fBttiEWu5tm18uold59PjJOtDTZ8/7F9BMv/+BeFPgBmhdp+0PAI/HDdI2OIhH40ZodziEx+JGaf/gAB6Ja6D1cMvl6Vkqj8NtaecXl/2gfYEOu8M8CtfUa2vcsD3EY3CNvbbGjfvveFer4+NWVydtvfYH1xl4tt7LxzUPyL84ipeNM9J+4SzdbBycubiVPVPZ34/m3svEubKU94WT4pwZKvLiiXDu7BQNgOMCmSkjCIgLZaWsQAgumJEygyXjwtkoO2AaLiETEUETcClZiAocwiVlIO59c+PSxo64Ee/EJf7Vi/uscuFSP6/F3WUcuOQ7rbj5gRmXPkcSN7Mz4oDZrbg5uQmHPJeM4/wXbsdBT5QtOO/FW3HYWkAbzpdAG45b5mjGeXjXLbgbjGbBOXgtOHBp0YTz8sZw1KLwXAtbe3Hzcn2dV7PXb3rt7TsnrjnS7fV7Y7Lq+DY+LKFWuMIVrnCFa8It/+NWuMIVrnCFK1zhCle4whWucIUrXOEKV7j7jqt1y8IVrnCFu/c45xf+O+3Dx/7X9p8+f3HiDkVyfOHv2qqx075+62f+/cd5oOcORTNv1cBprmGZwxNHM22PQnjCaNaNbQBPGM2+JTGdJ4zm2UyazBNG820DTuUJo3k3cCfyhNH8W+/TeMJokUMTSTxhtNhxlxSeMFr0oFICTxgtfsQszNOcCx4/HBjMQNz7lnKsM5SFuBGfdCA3kIm4z6q0o9TubMTdZRIPwTszEjc/SC1f4MpK3MwuufCEIzNxc/L0kiHm7MQ9TQHFXowZinsORsr0mLLcFlhqf9GxCywZMhW4tEaVxmrOVuCiKFfUrDFjIQOSL0fXlPUO7uy0/58uL3xL2XghwW48czGr9CDOMDiF0aYo3jnCE0abpuzqIE8YbaqCuQM8YbTpSh0f5AmjTVmk+gBPGG3a8uJ7eUq8rx0DN3jf+wlkbzueEL2UxAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNy0wOC0xMFQwOToyNDo0OCswMDowMPAQ5IcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTctMDgtMTBUMDk6MjQ6NDgrMDA6MDCBTVw7AAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="_220px-Flag_of_the_United_Kingdom.svg" data-name="220px-Flag_of_the_United_Kingdom.svg" stroke="#fff" stroke-width="1" fill="url(#pattern)">
+    <circle cx="12" cy="12" r="12" stroke="none"/>
+    <circle cx="12" cy="12" r="11.5" fill="none"/>
+  </g>
+</svg>
