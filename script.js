@@ -1,21 +1,18 @@
-
-// function mostrarIdioma(){
-//     document.getElementById("list-idioma").style.display = "block "      
-
-    
-    
-    
-//     // 
-   
-// }
-
 function mostrarIdioma() {
-    var x = document.getElementById("list-idioma");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+    let mostra = document.getElementById("list-idioma");
+    if (mostra.style.display === "none") {
+      mostra.style.display = "block";
       
     } else {
-      x.style.display = "none";
+      mostra.style.display = "none";
     }
   }
   
+  // function mostrarMais(){
+  //   let photos = document.getElementById("cardes")
+  //   if(photos.style.display === "none"){
+  //     photos.style.display = "block"
+  //   }else{
+  //     photos.style.display = "none"
+  //   }
+  // }
