@@ -72,7 +72,7 @@ const what = [
     {
         id:15,
         img:"./image-oq/igreja.jpg",
-        title: "IGREJA E CEMITERIO"
+        title: "IGREJA E CEMITÉRIO"
     },
     {
         id:16,
@@ -82,7 +82,7 @@ const what = [
     {
         id:17,
         img:"./image-oq/machine.jpg",
-        title: "A MAQUINA DO TEMPO"
+        title: "A MÁQUINA DO TEMPO"
     },
     {
         id:18,
@@ -92,12 +92,12 @@ const what = [
     {
         id:19,
         img:"./image-oq/plutonio.jpg",
-        title: "PARTICULA DE DEUS"
+        title: "PARTÍCULA DE DEUS"
     },
     {
         id:20,
         img:"./image-oq/relogio.jpg",
-        title: "RELOGIO DE BOLSO DOURADO"
+        title: "RELÓGIO DE BOLSO DOURADO"
     },
     {
         id:21,

@@ -2,23 +2,23 @@ const imagem = [
     {
         id:1,
         img: "./image/adam.jpg",
-        title: "Adam"
+        title: "ADAM"
     },
 
     {
         id: 2,
         img: "./image/bernadette.jpg",
-        title: "Bernadette"
+        title: "BERNADETTE"
     },
     {
          id:3,
          img:"./image/charlotte.jpg",
-         title: "Charlotte"
+         title: "CHARLOTTE"
     },
     {
         id:4,
         img: "./image/clausen.jpg",
-        title: "Clausen"
+        title: "CLAUSEN"
     },
     {
         id: 5,
