@@ -1,11 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-   
+
 }
-body{
-    background-color: rgb(22, 22, 22)
+
+body {
+    background-color: rgb(22, 22, 22);
+    overflow-x: hidden;
+    box-sizing: border-box;
+    height:100%
 }
+
 header {
     background: #000;
     height: 70px;
@@ -129,7 +134,7 @@ button {
 
     background-color: rgb(22, 22, 22);
     height: auto;
-    width: 100%;
+    width: 98%;
     position: relative;
     z-index: 0;
 }
@@ -158,60 +163,267 @@ button {
     letter-spacing: 10px;
 }
 
-#container-who{
+#container-who {
     position: relative;
-    left:9%;
-    top:200px
-    
+    left: 8%;
+    top: 200px
 }
-.row{
-    
+
+.row {
+
     width: 250px;
     margin: 10px;
 
 
 }
-#cards{
-    display:grid;
+
+#cards {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
 }
-.subtitle{
 
-    left:-5%;
-    color:white;
-    font-weight:600;
-top: 150px;
+.subtitle {
+
+    left: -5%;
+    color: white;
+    font-weight: 600;
+    top: 150px;
 }
-.photos{
-    margin-bottom: 23px;
+
+.photos {
+    margin-bottom: 45px;
 }
 
 .que {
 
     background-color: rgb(22, 22, 22);
     height: auto;
-    width: 100%;
-    top:500px;
+    width: 98%;
+    top: 500px;
     position: relative;
-    z-index: 0;}
+    z-index: 0;
+}
 
-    #cards2{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+#cards2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#container-who2 {
+    position: relative;
+    left: 9%;
+    top: 200px
+}
+
+.row2 {
+
+    width: 250px;
+    margin: 10px;
+
+
+}
+
+.quando {
+    background-color: rgb(22, 22, 22);
+    height: 900px;
+    width: 98%;
+    top: 870px;
+    position: relative;
+    z-index: 0;
+}
+
+#cards3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#container-who3 {
+    position: relative;
+    left: 9%;
+    top: 180px
+}
+
+.row3 {
+
+    width: 250px;
+    margin: 10px;
+
+
+}
+
+.quem-logo3 {
+
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    margin: 80px 0;
+    left: 42%;
+
+}
+
+.quem-logo3 img {
+    height: 130px;
+    position: relative;
+    left: 23%;
+}
+
+.quem-logo3 p {
+    font-size: 28px;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    top: 27px;
+    letter-spacing: 10px;
+}
+
+footer {
+    background: black;
+    position: relative;
+    align-items: center;
+
+    height: 250px;
+    width: 110%;
+    margin-top: 68%;
+    display: flex;
+    z-index: 0;
+}
+
+.logos {
+    margin-left: 18%;
+    padding: 23px;
+    position: relative;
+
+}
+
+.net-footer {
+    width: 100px;
+    height: 100px;
+
+    width: 40px;
+    position: absolute;
+    left: 350px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    margin: auto;
+}
+
+.logo-footer {
+    position: absolute;
+    right: 30%;
+    top: 0;
+    width: 110px;
+    height: 25px;
+}
+
+.footer-links {
+    flex-direction: column;
+    position: absolute;
+    max-width: 200px;
+    left: 70%;
+    margin-right: 70px;
+    text-align: end;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+@media screen and (min-device-width: 181px) and (max-device-width: 768px) { 
+    header{
+        width: 647px;
+    }
+    nav{
+        width:100%;
+    }
+    li{
+        padding:0;
+        color:peru;
+        margin-top:8%
+    }
+    .logo{
+        margin:12px;
+        left:535px;
+    }
+    .inicio{
+        width: 650px;
+    }
+    .inicio p{
+        left:45%
+    }
+    .inicio p:first-child{
+        display:none
+    }
+    .inicio p:nth-child(2){
+        color:peru;
+        margin-top:3%;
+        left:130px;
+    }
+    .inicio p:nth-child(3){
+        
+    display:none
+    
+    }
+    .inicio p:nth-child(4){
+        color:peru;
+        left:270px;
+    }
+    .redes, .idiomas{
+        display:none;
+    }
+    .quem-logo{
+        left:55%;
+    }
+    
+    .photos{
+        width: 150px;
+        height: 130px;
+    }
+    #cards, #cards2, #cards3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         text-align: center;
+        margin-left:15px
     }
-
-    #container-who2{
-        position: relative;
-        left:9%;
-        top:200px
-        
+    .subtitle{
+        text-align: left;
+        left: 7px;
+top:122px;
+font-size: 14px;
     }
-    .row2{
-        
-        width: 250px;
-        margin: 10px;
-    
-    
+    #container-who, #container-who2, #container-who3{
+        margin-left: 0px;
+    margin-right: -28px
     }
+    .quem-logo3{
+        left:55%;
+    }
+    footer{
+    bottom:0;
+    top:650px;
+    height:233px;
+    width:97vh
+    }
+    .logos{
+        margin:100px;
+    }
+    .net-footer{
+        display:none;
+    }
+    .footer-links{
+        margin-right:100px;
+    }
+}
